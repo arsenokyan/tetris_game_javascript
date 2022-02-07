@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>tetris</title> 
+    <script src="tetris.js"></script>
+    <style>
+       #empty {
+        width: 30px;
+        height: 30px;
+        outline: 2px solid black;
+        display: inline-block;
+        background-color: black;
+    }
+    #square {
+        width: 30px;
+        height: 30px;
+        background-color:green;
+        outline: 2px solid black;
+        background-image: url('tetris-piece.png');
+        display: inline-block;
+    }
+    #board {
+        background-image: url('background.png');
+        background-repeat: no-repeat;
+    }
+    </style>
+     </head>
+     <body>
+         <div id='board' style="text-align:center">
+          <div>
+            <span>GameLevel</span>
+            <select  id="level">
+               <option value="1">1</option>
+               <option value="2">2</option>
+              
+             </select>
+            </div>
+           <img src="./tetris-logo.jpg" >
+          
+            
+         </div>
+         <div style="text-align:center">
+            <button onclick="play()">play</button>
+            <button onClick='stop()'>stop</button>
+            <button onClick='pause()'>pause</button>
+            
+           
+        </div>
+       <script>
+
+
+
+
+
+    
+        
+ </script>
+        </body>
+   </html>
